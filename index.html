@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Touch palette – color picker proof of concept</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+<style>
+-webkit-text-size-adjust: none;
+</style>
+  </head>
+  <body>
+    <pre>TOUCH PALETTE
+
+Proof of concept color picker,
+with limited number of colors,
+for touch based app.
+
+Hue, saturation and lightness
+can be increased and decreased
+by one or four steps.
+
+Center color is current color.
+
+Four predefined colors.
+TODO: make it possible
+to drag colors to the
+predefined spots.
+
+
+(only works in modern browsers)</pre>
+    <div id=fixedPaletteElem></div>
+    <script defer src="main.js"></script>
+    <script>
+      document.body.addEventListener('touchmove', e => e.preventDefault(), false);
+    </script>
+  </body>
+</html>

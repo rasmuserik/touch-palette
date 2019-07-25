@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "live-server --port=3000 --host=0.0.0.0",
+    "prettier": "prettier --write main.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "prettier": "^1.18.2"
+  }
+}
